@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+.chess_board {
+    border: solid #F4A460;
+}
+
+.chess_frame {
+    width: 40px;
+    height: 40px;
+}
+
+.rank {
+    display: flex;
+}
+
+.sand {
+    background-color: #F4A460;
+}
+
+.antiquewhite   {
+    background-color: antiquewhite;
+}
+
+.highlight {
+    background-color: brown;
+}
+
+.king {
+    background-image: url("./img/king.png");
+    background-position: center;
+}
+
+.knight {
+    background-image: url("./img/knight.png");
+    background-position: center;
+}
+.rook {
+    background-image: url("./img/rook.png");
+    background-position: center;
+}
+.bishop {
+    background-image: url("./img/bishop.png");
+    background-position: center;
+}
+.queen {
+    background-image: url("./img/queen.png");
+    background-position: center;
+}
+.black_pawn {
+    background-image: url("./img/pawn.png");
+    background-position: center;
+}
+
+.white_pawn {
+    background-image: url("./img/white_pawn.png");
+    background-position: center;
+}
